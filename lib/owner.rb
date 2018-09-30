@@ -1,7 +1,7 @@
 require "pry"
 class Owner
   # code goes here
-  attr_accessor :pets, :owner
+  attr_accessor :pets, :owner, :name
   attr_reader :species
 
   @@owners = []
@@ -29,4 +29,7 @@ class Owner
    "I am a #{@species}."
   end
 
+  def name(name)
+    @name = name
+  end
 end
