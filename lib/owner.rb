@@ -6,7 +6,6 @@ class Owner
 
   @@all = []
   def initialize(owner)
-    # binding.pry
     @owner = owner
     self.class.all << self
   end
