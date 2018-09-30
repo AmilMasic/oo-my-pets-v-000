@@ -13,4 +13,7 @@ class Owner
     @@all
   end
 
+  def self.reset_all
+    self.class.all.delete
+  end
 end
