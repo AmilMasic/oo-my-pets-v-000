@@ -22,7 +22,7 @@ class Owner
     Owner.all.count
   end
 
-  def species
+  def species(species)
 
   end
 
