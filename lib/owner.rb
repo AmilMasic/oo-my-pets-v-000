@@ -22,5 +22,8 @@ class Owner
     Owner.all.count
   end
 
+  def species(species)
+    @species = species
+  end
 
 end
