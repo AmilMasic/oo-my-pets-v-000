@@ -81,5 +81,8 @@ class Owner
     pets[:fishes]
   end
 
+  def sell_pets
+    
+  end
 
 end
