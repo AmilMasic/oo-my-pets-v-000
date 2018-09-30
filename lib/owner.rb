@@ -24,8 +24,11 @@ class Owner
   end
 
   def species(species)
-    binding.pry
+    # binding.pry
+    human = Owner.new(owner, species)
+    @owner = owner
     @species = species
+
   end
 
 end
