@@ -23,7 +23,7 @@ class Owner
   end
   # binding.pry
   def species(species)
-     owner = Owner.new(owner)
+     # owner = Owner.new(owner)
 
   end
 
