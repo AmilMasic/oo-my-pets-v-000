@@ -4,10 +4,9 @@ class Owner
   attr_accessor :pets, :owner, :species
 
   @@all = []
-  def initialize(owner, species)
+  def initialize(owner)
     # binding.pry
     @owner = owner
-    @species = species
     self.class.all << self
   end
   def self.all
