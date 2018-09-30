@@ -22,9 +22,9 @@ class Owner
     Owner.all.count
   end
   # binding.pry
-  def self.species(species)
+  def self.species
 
-     @species = species
+     @species
 
   end
 
