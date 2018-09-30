@@ -6,14 +6,16 @@ class Owner
 
   @@all = []
   def initialize(owner, species)
-    binding.pry
+    # binding.pry
     @species = species
     @owner = owner
     self.class.all << self
-
+    
 
   end
+  
   def self.all
+    binding.pry
     @@all
   end
 
