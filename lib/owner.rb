@@ -1,12 +1,13 @@
 require "pry"
 class Owner
   # code goes here
-  attr_accessor :pets, :owner
+  attr_accessor :pets, :owner :species
 
   @@all = []
-  def initialize(owner)
+  def initialize(owner, species)
     # binding.pry
     @owner = owner
+    @species = species
     self.class.all << self
   end
   def self.all
