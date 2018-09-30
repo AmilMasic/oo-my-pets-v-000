@@ -25,12 +25,8 @@ class Owner
     Owner.all.count
   end
 
-  # def species(species)
-  #   # binding.pry
-  #   human = Owner.new(owner, species)
-  #   @owner = owner
-  #   @species = species
-  #
-  # end
+  def say_species
+
+  end
 
 end
