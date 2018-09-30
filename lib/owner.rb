@@ -7,9 +7,9 @@ class Owner
   def initialize(owner)
     # binding.pry
     @owner = owner
-    self.class.all << owner
+    self.class.all << self
   end
-  def self.all 
+  def self.all
     @@all
   end
 
