@@ -23,7 +23,9 @@ class Owner
   end
 
   def species(species)
+    binding.pry
      @species = species
+
   end
 
 end
