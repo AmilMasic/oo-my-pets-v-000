@@ -21,7 +21,7 @@ class Owner
   def self.count
     Owner.all.count
   end
-  binding.pry
+  # binding.pry
   def self.species(species)
 
      @species = species
