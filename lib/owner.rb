@@ -5,11 +5,9 @@ class Owner
   attr_reader :species
 
   @@all = []
-  def initialize(owner, species)
-    # binding.pry
+  def initialize(species, owner)
     @species = species
     @owner = owner
-    binding.pry
     self.class.all << self
 
 
