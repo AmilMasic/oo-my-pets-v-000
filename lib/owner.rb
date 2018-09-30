@@ -22,10 +22,10 @@ class Owner
     Owner.all.count
   end
   binding.pry
-  def species(species)
-  
+  def self.species(species)
+
      @species = species
-     
+
   end
 
 end
