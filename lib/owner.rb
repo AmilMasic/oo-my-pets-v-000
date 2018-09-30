@@ -4,7 +4,7 @@ class Owner
   attr_accessor :pets, :owner
   attr_reader :species
 
-  @@all = []
+  @@owners = []
   # def initialize(owner)
   #   @owner = owner
   #   self.class.all << self
@@ -18,7 +18,7 @@ class Owner
 
   def self.all
     # binding.pry
-    @@all
+    @@owners
   end
 
   def self.reset_all
@@ -34,7 +34,7 @@ class Owner
     human = Owner.new(owner, species)
     @owner = owner
     @species = species
-    
+
   end
 
 end
