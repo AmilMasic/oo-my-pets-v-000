@@ -20,4 +20,6 @@ class Owner
   def self.count
     Owner.all.count
   end
+
+
 end
