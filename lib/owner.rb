@@ -8,6 +8,7 @@ class Owner
   def initialize(owner)
     @owner = owner
     self.class.all << self
+
   end
   def self.all
     @@all
@@ -21,8 +22,8 @@ class Owner
     Owner.all.count
   end
 
-  def species(species)
-    @species = species
+  def species
+    # @species = species
   end
 
 end
