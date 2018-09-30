@@ -9,13 +9,14 @@ class Owner
     # binding.pry
     @species = species
     @owner = owner
+    binding.pry
     self.class.all << self
-    
+
 
   end
-  
+
   def self.all
-    binding.pry
+    # binding.pry
     @@all
   end
 
