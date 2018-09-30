@@ -5,4 +5,7 @@ class Owner
   def initialize(pets)
     @pets = pets
     @@all << pets
+  end
+
+  
 end
